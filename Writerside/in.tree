@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name"
+                 start-page="roadmap.md">
+
+    <toc-element topic="roadmap.md"/>
+    <toc-element topic="JS.md">
+        <toc-element topic="Полезные-ссылки.md"/>
+        <toc-element topic="Введение.md"/>
+        <toc-element topic="Браузерный-JS.md"/>
+    </toc-element>
+</instance-profile>

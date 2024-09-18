@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="779ede2">
+        <description>Created after removal of "asd" from Instance Name</description>
+        <accepts>asd.html</accepts>
+    </rule>
+    <rule id="481b95da">
+        <description>Created after removal of "UseStrict" from Instance Name</description>
+        <accepts>UseStrict.html</accepts>
+    </rule>
+    <rule id="8f31a69">
+        <description>Created after removal of "Starter" from Instance Name</description>
+        <accepts>starter.html</accepts>
+    </rule>
+</rules>
