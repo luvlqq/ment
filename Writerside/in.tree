@@ -12,4 +12,27 @@
         <toc-element topic="Введение.md"/>
         <toc-element topic="Браузерный-JS.md"/>
     </toc-element>
+    <toc-element topic="Nest.md">
+        <toc-element topic="Основы.md"/>
+        <toc-element topic="Жизненный-цикл-запроса.md"/>
+    </toc-element>
+    <toc-element topic="HTTP.md">
+        <toc-element topic="HTTP-versions.md"/>
+        <toc-element topic="HTTP-methods.md"/>
+        <toc-element topic="HTTP-headers.md"/>
+        <toc-element topic="HTTP-code-response.md"/>
+        <toc-element topic="HTTP-caching.md"/>
+        <toc-element topic="HTTPS.md"/>
+        <toc-element topic="SSL-и-TLS.md"/>
+        <toc-element topic="TCP-IP.md"/>
+        <toc-element topic="Cookie.md"/>
+        <toc-element topic="LocalStorage-и-SessionStorage.md"/>
+        <toc-element topic="OSI-model.md"/>
+        <toc-element topic="Proxy.md"/>
+        <toc-element topic="WebSocket.md"/>
+        <toc-element topic="XSS.md"/>
+        <toc-element topic="Man-in-the-middle-MITM.md"/>
+        <toc-element topic="Cross-site-request-forgery-CSRF.md"/>
+        <toc-element topic="Clickjacking.md"/>
+    </toc-element>
 </instance-profile>
