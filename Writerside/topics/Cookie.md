@@ -15,25 +15,26 @@ HTTP cookie (web cookie, куки браузера) - это небольшой 
 4 кб
 
 ---
-### [Создание куки](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies#%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BA%D1%83%D0%BA%D0%B8)
 
-Получив HTTP-запрос, вместе с ответом сервер может отправить заголовок [`Set-Cookie`](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Set-Cookie). Куки обычно запоминаются браузером и посылаются в HTTP-заголовке [`Cookie` (en-US)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie "Currently only available in English (US)") с каждым новым запросом к одному и тому же серверу. Можно задать срок действия кук, а также срок их жизни, после которого куки не будут отправляться. Также можно указать ограничения на путь и домен, то есть указать, в течении какого времени и к какому сайту они будут отсылаться.
+### [Создание куки](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies)
+
+Получив HTTP-запрос, вместе с ответом сервер может отправить заголовок [`Set-Cookie`](https://developer.mozilla.org/ru/docs/Web/HTTP/Headers/Set-Cookie). Куки обычно запоминаются браузером и посылаются в HTTP-заголовке [`Cookie` (en-US)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cookie "Currently only available in English (US)") с каждым новым запросом к одному и тому же серверу. Можно задать срок действия кук, а также срок их жизни, после которого куки не будут отправляться. Также можно указать ограничения на путь и домен, то есть указать, в течении какого времени и к какому сайту они будут отсылаться.
 
 ---
 
-### [Сессионные cookie](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies#%D1%81%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5_cookie)
+### [Сессионные cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 Простой cookie, пример которого приведён выше, представляет собой сессионный _cookie_ (_session cookie_) - такие cookie удаляются при закрытии клиента, то есть существуют только на протяжении текущего сеанса, поскольку атрибуты `Expires` или `Max-Age` для него не задаются. Однако, если в браузере включено автоматическое восстановление сеанса, что случается очень часто, cookie сеанса может храниться постоянно, как если бы браузер никогда не закрывался.
 
 ---
 
-### [Постоянные cookies](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies#%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BD%D1%8B%D0%B5_cookies)
+### [Постоянные cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 _Постоянные cookie_ (_permanent cookies_) удаляются не с закрытием клиента, а при наступлении определённой даты (атрибут `Expires`) или после определённого интервала времени (атрибут `Max-Age`).
 
 ---
 
-### [`Secure` ("безопасные") и `HttpOnly` куки](https://developer.mozilla.org/ru/docs/Web/HTTP/Cookies#secure_%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D1%8B%D0%B5_%D0%B8_httponly_%D0%BA%D1%83%D0%BA%D0%B8)
+### [`Secure` ("безопасные") и `HttpOnly` куки](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 
 "Безопасные" (secure) куки отсылаются на сервер только тогда, когда запрос отправляется по протоколу SSL и HTTPS. Однако важные данные никогда не следует передавать или хранить в куках, поскольку сам их механизм весьма уязвим в отношении безопасности, а флаг `secure` никакого дополнительного шифрования или средств защиты не обеспечивает. Начиная с Chrome 52 и Firefox 52, незащищённые сайты (http:) не могут создавать куки с флагом `Secure`.
 
