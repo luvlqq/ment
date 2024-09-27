@@ -41,4 +41,5 @@
     <toc-element topic="Database.md"/>
     <toc-element topic="Agile.md"/>
     <toc-element topic="Testing.md"/>
+    <toc-element topic="SOLID.md"/>
 </instance-profile>
