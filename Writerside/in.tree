@@ -42,4 +42,7 @@
     <toc-element topic="Agile.md"/>
     <toc-element topic="Testing.md"/>
     <toc-element topic="SOLID.md"/>
+    <toc-element topic="Собеседование.md">
+        <toc-element topic="Разговор-с-hr-Обсуждение-опыта.md"/>
+    </toc-element>
 </instance-profile>
