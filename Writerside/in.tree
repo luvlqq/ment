@@ -33,7 +33,14 @@
         <toc-element topic="Введение.md"/>
     </toc-element>
     <toc-element topic="TypeScript.md"/>
-    <toc-element topic="NodeJS.md"/>
+    <toc-element topic="NodeJS.md">
+        <toc-element topic="Event-Loop.md"/>
+        <toc-element topic="Worker-Threads.md"/>
+        <toc-element topic="V8.md"/>
+        <toc-element topic="Dependency-Injection.md"/>
+        <toc-element topic="Измерение-производителности.md"/>
+        <toc-element topic="NPM.md"/>
+    </toc-element>
     <toc-element topic="Nest.md">
         <toc-element topic="Основы.md"/>
         <toc-element topic="Жизненный-цикл-запроса.md"/>
