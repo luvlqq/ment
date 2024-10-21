@@ -6,6 +6,7 @@
                  name="Вкатываемся в NodeJS"
                  start-page="roadmap.md">
 
+    <toc-element topic="Полезные-библиотеки.md"/>
     <toc-element topic="roadmap.md"/>
     <toc-element topic="HTTP.md">
         <toc-element topic="HTTP-versions.md"/>
