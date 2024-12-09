@@ -47,6 +47,11 @@
     </toc-element>
     <toc-element topic="Database.md"/>
     <toc-element topic="Servers.md"/>
+    <toc-element topic="Брокеры-сообщений.md">
+        <toc-element topic="RabbitMQ.md"/>
+        <toc-element topic="Kafka.md"/>
+        <toc-element topic="Kafka-vs-RabbitMQ.md"/>
+    </toc-element>
     <toc-element topic="Архитектура-приложения.md">
         <toc-element topic="Монолит.md"/>
         <toc-element topic="Микросервисы.md"/>
