@@ -45,7 +45,17 @@
         <toc-element topic="Основы.md"/>
         <toc-element topic="Жизненный-цикл-запроса.md"/>
     </toc-element>
-    <toc-element topic="Database.md"/>
+    <toc-element topic="Database.md">
+        <toc-element topic="MongoDB.md">
+            <toc-element topic="Создание-коллекции.md"/>
+            <toc-element topic="Выборка.md"/>
+        </toc-element>
+        <toc-element topic="PostgreSQl.md">
+            <toc-element topic="Язык-SQL.md"/>
+            <toc-element topic="Создание-баз-данных-таблиц-индексов.md"/>
+            <toc-element topic="Работа-с-таблицами.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Servers.md"/>
     <toc-element topic="Брокеры-сообщений.md">
         <toc-element topic="RabbitMQ.md"/>

@@ -12,6 +12,7 @@
 - [Nest](Nest.md)
 - [Database](Database.md)
 - [Servers](Servers.md)
+- [Брокеры сообщений](Брокеры-сообщений.md)
 - [Архитектура приложения](Архитектура-приложения.md)
 - [Agile](Agile.md)
 - [Testing](Testing.md)
