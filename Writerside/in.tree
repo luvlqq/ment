@@ -67,6 +67,11 @@
         <toc-element topic="Микросервисы.md"/>
         <toc-element topic="DDD.md"/>
     </toc-element>
+    <toc-element topic="Тестовые-задания.md">
+        <toc-element topic="Первое-задание.md"/>
+        <toc-element topic="Второй-этап.md"/>
+        <toc-element topic="Третий-этап.md"/>
+    </toc-element>
     <toc-element topic="Agile.md"/>
     <toc-element topic="Testing.md"/>
     <toc-element topic="SOLID.md"/>
