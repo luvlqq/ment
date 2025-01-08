@@ -6,3 +6,6 @@
 
 [Документация](https://docs.nestjs.com/)
 
+[NestJS Microservices Official Course](https://courseflix.net/course/nest-js-microservices-build-deploy-a-scaleable-backend)
+
+[NestJS Architecture and Patterns Official Course](https://courseflix.net/course/nestjs-architecture-and-advanced-patterns)
