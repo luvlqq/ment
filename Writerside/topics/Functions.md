@@ -5,7 +5,7 @@
 
 ### **Function Declaration**
 
-```js
+```javascript
 function greet(name) {
   return "Привет, " + name + "!";
 }
@@ -18,7 +18,7 @@ function greet(name) {
 
 ### **Function Expression**
 
-```js
+```javascript
 const greet = function (name) {
   return "Привет, " + name + "!";
 };
@@ -32,7 +32,7 @@ const greet = function (name) {
 
 ### **Стрелочная функция**
 
-```js
+```javascript
 const greet = (name) => {
   return "Привет, " + name + "!";
 };
@@ -46,7 +46,7 @@ const greet = (name) => {
 
 ### **IIFE (Immediately Invoked Function Expression)**
 
-```js
+```javascript
 (function () {
   // код
 })();
@@ -60,7 +60,7 @@ const greet = (name) => {
 
 ### **Генераторы**
 
-```js
+```javascript
 function* generateSequence() {
   yield 1;
   yield 2;

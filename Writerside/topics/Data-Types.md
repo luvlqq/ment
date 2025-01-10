@@ -46,7 +46,7 @@ console.log(name)
 Создать булево значение можно несколькими способами. Первый — явно указать значение, используя ключевые слова true и
 false:
 
-```js
+```javascript
 const truthyValue = true // «Истина»
 const falsyValue = false // «Ложь»
 
@@ -54,7 +54,7 @@ const falsyValue = false // «Ложь»
 
 Второй способ — использовать метод Boolean:
 
-```js
+```JavaScript
 const truthyValue = Boolean(1) // «Истина»
 const falsyValue = Boolean('') // «Ложь»
 
@@ -72,7 +72,7 @@ const falsyValue = Boolean('') // «Ложь»
 
 Для записи чисел используются цифры, для разделения целой и десятичной части используется точка:
 
-```js
+```javascript
 const int = 4
 const decimal = 0.101
 const sameDecimal = .101
@@ -82,7 +82,7 @@ const sameDecimal = .101
 Числа так же могут быть представлены в двоичном, восьмеричном или шестнадцатеричном виде. Такие числа начинаются с
 приставки 0b, 0o, 0x соответственно. При выводе на экран они будут преобразованы в десятичную систему счисления:
 
-```js
+```javascript
 const binary = 0b11
 console.log(binary)
 // 3
@@ -113,7 +113,7 @@ console.log(hexadecimal)
 
 Записи одинарными и двойными кавычками идентичны:
 
-```js
+```javascript
 const double = "Добрый день!"
 const single = 'Добрый день'
 
@@ -121,7 +121,7 @@ const single = 'Добрый день'
 
 Можно создать пустую строку или строку из пробелов:
 
-```js
+```javascript
 const empty = ''
 const spaces = '   '
 
@@ -130,7 +130,7 @@ const spaces = '   '
 Если в записи одинарными кавычками нужно поставить апостроф, то символ экранируют обратным слэшем . Так мы даём
 JavaScript понять, что это просто символ, а не закрывающая кавычка:
 
-```js
+```javascript
 const who = 'I\'m a good person.'
 
 ```
@@ -138,7 +138,7 @@ const who = 'I\'m a good person.'
 Шаблонные строки позволяют подставлять в строку значения переменных. Между обратными апострофами пишется текст, а в
 местах, где нужно вставить значение из переменной используется синтаксис ${имя_переменной}:
 
-```js
+```javascript
 const product = 'Томаты'
 const quantity = 1
 
@@ -158,14 +158,14 @@ console.log(`Список покупок: ${product}, ${quantity}шт.`)
 
 - Добавить суффикс n в конец записи числа:
 
-```js
+```javascript
 const biggy = 9997000254740991n
 
 ```
 
 - Вызвать конструктор BigInt:
 
-```js
+```javascript
 const alsoBig = BigInt(9997000254999999)
 
 ```
@@ -173,7 +173,7 @@ const alsoBig = BigInt(9997000254999999)
 Для BigInt определены операции сложения +, вычитания -, умножения *, взятия остатка от деления %, возведение в
 степень **. Операция деления / также работает, но дробная часть будет отброшена:
 
-```js
+```javascript
 const seven = 7n
 const five = 5n
 
@@ -194,7 +194,7 @@ console.log(seven / five)
 
 Для создания символа нужно вызвать функцию Symbol:
 
-```js
+```javascript
 const sym = Symbol()
 const symTwo = Symbol()
 
@@ -230,14 +230,14 @@ console.log(sym === symTwo)
 
 Чаще всего объекты создают с помощью литеральной записи:
 
-```js
+```javascript
 const cat = {}
 
 ```
 
 Или с помощью конструктора Object:
 
-```js
+```JavaScript
 const book = new Object({ title: 'Война и мир', author: 'Лев Толстой' })
 
 ```

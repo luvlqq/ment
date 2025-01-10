@@ -12,7 +12,7 @@
 - **fulfilled** — получен результат;
 - **rejected** — ошибка.
 
-```js
+```javascript
 const promise = new Promise(function (resolve, reject) {
   const data = getData() // делаем асинхронную операцию: запрос в БД, API, etc.
   resolve(data) // переводим промис в состояние fulfilled. Результатом выполнения будет объект data
