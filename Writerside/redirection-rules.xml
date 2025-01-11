@@ -26,4 +26,8 @@
         <description>Created after removal of "Переменные и константы" from Вкатываемся в NodeJS</description>
         <accepts>Основные-основы.html</accepts>
     </rule>
+    <rule id="4f238376">
+        <description>Created after removal of "Типы данных" from Вкатываемся в NodeJS</description>
+        <accepts>Типы-данных.html</accepts>
+    </rule>
 </rules>
