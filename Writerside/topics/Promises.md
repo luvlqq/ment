@@ -29,7 +29,7 @@ const errorPromise = new Promise(function (resolve, reject) {
 - второй параметр (в примере кода назван reject) — колбэк для перевода промиса в состояние rejected, при его вызове
   аргументом передаётся информация об ошибке.
 
-### **Методы**
+### Методы
 
 Существует три метода, которые позволяют работать с результатом выполнения вычисления внутри промиса:
 
@@ -40,7 +40,7 @@ const errorPromise = new Promise(function (resolve, reject) {
 
 *Подробнее:* [Promise](https://learn.javascript.ru/async)
 
-### **Promise API**
+### Promise API
 
 В классе Promise есть 6 статических методов:
 

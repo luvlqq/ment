@@ -3,7 +3,7 @@
 В JavaScript функции являются фундаментальным строительным блоком, позволяющим организовывать и структурировать код для
 выполнения определенных задач.
 
-### **Function Declaration**
+### Function Declaration
 
 ```javascript
 function greet(name) {
@@ -16,7 +16,7 @@ function greet(name) {
 
 Функции, объявленные таким способом, могут быть вызваны до того, как код, содержащий их, выполнится.
 
-### **Function Expression**
+### Function Expression
 
 ```javascript
 const greet = function (name) {
@@ -30,7 +30,7 @@ const greet = function (name) {
 
 *Подробнее:* [Function Expression](https://learn.javascript.ru/function-expressions)
 
-### **Стрелочная функция**
+### Стрелочная функция
 
 ```javascript
 const greet = (name) => {
@@ -44,7 +44,7 @@ const greet = (name) => {
 
 *Подробнее:* [Стрелочная функция](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-### **IIFE (Immediately Invoked Function Expression)**
+### IIFE (Immediately Invoked Function Expression)
 
 ```javascript
 (function () {
@@ -58,7 +58,7 @@ const greet = (name) => {
 
 *Подробнее:* [IIFE](https://developer.mozilla.org/ru/docs/Glossary/IIFE)
 
-### **Генераторы**
+### Генераторы
 
 ```javascript
 function* generateSequence() {
@@ -80,7 +80,7 @@ console.log(gen.next()); // { value: undefined, done: true }
 
 *Подробнее:* [Генераторы](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Generator)
 
-### **Продвинутая работа с функциями**
+### Продвинутая работа с функциями
 
 > Рекурсия – это термин в программировании, означающий вызов функцией самой себя. Рекурсивные функции могут быть
 > использованы для элегантного решения определённых задач.

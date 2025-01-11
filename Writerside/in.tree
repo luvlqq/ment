@@ -27,11 +27,7 @@
         <toc-element topic="Clickjacking.md"/>
     </toc-element>
     <toc-element topic="JS.md">
-        <toc-element topic="Event-Loop-JS.md"/>
-        <toc-element topic="Error-Handling.md"/>
-        <toc-element topic="Основные-основы.md"/>
         <toc-element topic="Типы-данных.md"/>
-        <toc-element topic="Браузерный-JS.md"/>
         <toc-element topic="use-strict.md"/>
         <toc-element topic="var-let-const.md"/>
         <toc-element topic="Data-Types.md"/>
@@ -40,6 +36,9 @@
         <toc-element topic="Classes.md"/>
         <toc-element topic="Promises.md"/>
         <toc-element topic="async-await.md"/>
+        <toc-element topic="Error-Handling.md"/>
+        <toc-element topic="Event-Loop-JS.md"/>
+        <toc-element topic="Браузерный-JS.md"/>
         <toc-element topic="Введение.md"/>
     </toc-element>
     <toc-element topic="TypeScript.md"/>

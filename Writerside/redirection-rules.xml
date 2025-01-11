@@ -22,4 +22,8 @@
         <description>Created after removal of "Полезные ссылки" from Вкатываемся в NodeJS</description>
         <accepts>Полезные-ссылки.html</accepts>
     </rule>
+    <rule id="37da3ead">
+        <description>Created after removal of "Переменные и константы" from Вкатываемся в NodeJS</description>
+        <accepts>Основные-основы.html</accepts>
+    </rule>
 </rules>
