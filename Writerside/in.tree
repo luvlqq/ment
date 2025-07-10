@@ -60,6 +60,7 @@
         </toc-element>
         <toc-element topic="PostgreSQl.md">
             <toc-element topic="Язык-SQL.md"/>
+            <toc-element topic="Хранение-данных-в-СУБД-Структура-и-особенности-Storage.md"/>
             <toc-element topic="Создание-баз-данных-таблиц-индексов.md"/>
             <toc-element topic="Работа-с-таблицами.md"/>
         </toc-element>
